@@ -5,8 +5,8 @@
 
 <AnchorPane prefHeight="252.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.domjos.HalloJavaFX.controller.MainController">
    <children>
-      <TextField fx:id="txtNumber1" layoutX="27.0" layoutY="14.0" promptText="erste Zahl" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
-      <TextField fx:id="txtNumber2" layoutX="10.0" layoutY="42.0" promptText="zweite Zahl" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="45.0" />
+      <TextField fx:id="txtNumber1" layoutX="27.0" layoutY="14.0" promptText="%application.field1" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <TextField fx:id="txtNumber2" layoutX="10.0" layoutY="42.0" promptText="%application.field2" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="45.0" />
       <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#enterCalculation" prefWidth="25.0" text="1" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="80.0" />
       <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#enterCalculation" prefWidth="25.0" text="2" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="80.0" />
       <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#enterCalculation" prefWidth="25.0" text="3" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="80.0" />
