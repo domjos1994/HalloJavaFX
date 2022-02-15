@@ -1,0 +1,7 @@
+
+.button {
+    -fx-background-color: #708090;
+    -fx-border-color: #000;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+}

@@ -4,11 +4,14 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+import java.io.InputStream;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.Locale;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class HalloJavaFX extends Application {
@@ -25,10 +28,24 @@ public class HalloJavaFX extends Application {
         URL url = HalloJavaFX.class.getResource("/fxml/Main.fxml");
 
         if(url != null) {
+            String stylesheet = Objects.requireNonNull(
+                    HalloJavaFX.class.getResource("/styles/style.css")
+            ).toExternalForm();
+
+            InputStream inputStream =
+                    HalloJavaFX.class.getResourceAsStream("/images/icon.png");
+
             ResourceBundle language = HalloJavaFX.getLanguage();
             Parent root = FXMLLoader.load(url, language);
             Scene scene = new Scene(root);
+            scene.getStylesheets().add(stylesheet);
             stage.setScene(scene);
+
+            if(inputStream != null) {
+                stage.getIcons().add(new Image(inputStream));
+                inputStream.close();
+            }
+
             stage.setTitle(language.getString("application.title"));
             stage.show();
         }

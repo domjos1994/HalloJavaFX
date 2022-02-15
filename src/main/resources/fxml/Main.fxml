@@ -18,7 +18,7 @@
       <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#enterCalculation" prefWidth="25.0" text="9" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="150.0" />
       <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#enterCalculation" prefWidth="25.0" text="0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="185.0" />
       <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#enterCalculation" prefWidth="25.0" text="," AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="185.0" />
-      <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#back" prefWidth="25.0" text="&lt;" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="185.0" />
+      <Button layoutX="10.0" layoutY="79.0" maxWidth="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#back" prefWidth="25.0" text="b" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="185.0" />
       <Button layoutX="141.0" layoutY="103.0" mnemonicParsing="false" onAction="#enterCalculation" text="+" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0" />
       <Button layoutX="141.0" layoutY="103.0" mnemonicParsing="false" onAction="#enterCalculation" text="-" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="115.0" />
       <Button layoutX="141.0" layoutY="103.0" mnemonicParsing="false" onAction="#enterCalculation" text="*" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="150.0" />
